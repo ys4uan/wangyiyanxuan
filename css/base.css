@@ -1,0 +1,43 @@
+body,div,h1,h2,h3,h4,h5,h6,th,td,dl,dt,dd,ul,ol,li,input,button,p,textarea,form{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul,ol,dl{
+	list-style: none;
+}
+img{
+	border: none;
+}
+
+/*行块显示*/
+.displayIB{
+	display: inline-block;
+}
+
+/*左浮动和右浮动*/
+.floatLeft,.floatRight{
+	display: inline-block;
+}
+.floatLeft{
+	float: left;
+}
+.floatRight{
+	float: right;
+}
+.alignCenter{
+	text-align: center;
+}
+
+/*块级元素水平对齐*/
+.marginCenter{
+	margin: auto;
+}
